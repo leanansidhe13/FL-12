@@ -1,5 +1,31 @@
-/*
+.tm-sidebar {
+  box-shadow: 0px 2px 5px 0px #333;
+}
 
-write your code here
+.tm-nav-item:hover{
+  background-color: lightskyblue;
+  color: #fff;
+}
 
-*/
+.tm-banner-text {
+    text-shadow: 5px 5px 3px rgb(50, 50, 50, 0.9);
+    position: relative;
+    animation: text-animation 4s;
+  }
+
+.li {list-style-type: lower-alpha;}
+
+@keyframes text-animation {
+    from {left: 200px}
+    to {left: 0}
+  }
+
+.blocks p:nth-of-type(2) {
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  font-style: italic;
+}
+
+.blocks p::first-letter {
+  font-weight: bold;
+}
